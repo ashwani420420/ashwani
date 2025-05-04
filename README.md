@@ -1,141 +1,127 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>XTREME ASHWANI - Official Website</title>
+  <title>XTREME ASHWANI - Audience Section</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #121212;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #111;
       color: #f0f0f0;
     }
 
     header {
-      background-color: #222;
-      color: #ff6f61;
-      padding: 25px;
+      background-color: #000;
+      color: #fff;
+      padding: 20px 10px 10px;
       text-align: center;
-      border-bottom: 5px solid #ff6f61;
+      border-bottom: 3px solid crimson;
     }
 
     header h1 {
       margin: 0;
-      font-size: 3.5rem;
-      letter-spacing: 3px;
-      color: #ff6f61;
-      font-weight: bold;
-      animation: slideIn 2s ease-out;
+      font-size: 3rem;
+      letter-spacing: 2px;
+      color: crimson;
+      line-height: 1.2;
     }
 
     .marquee {
-      background-color: #1f1f1f;
-      padding: 12px 0;
-      color: #00bcd4;
+      background: #222;
+      padding: 10px 0;
+      color: #00ffff;
       font-weight: bold;
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
 
     .banner {
       width: 100%;
-      height: 350px;
-      background: url('https://via.placeholder.com/1200x350/FF0000/FFFFFF?text=XTREME+ASHWANI') no-repeat center center/cover;
-      border-bottom: 3px solid #ff6f61;
-      box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
+      height: 300px;
+      background: url('https://via.placeholder.com/1200x300/FF0000/FFFFFF?text=XTREME+ASHWANI') no-repeat center center/cover;
+      border-bottom: 2px solid crimson;
     }
 
     section {
-      padding: 40px 20px;
+      padding: 30px 20px;
     }
 
     .videos, .featured-video, .contact-form, .form-section {
-      background-color: #1c1c1c;
-      border-radius: 12px;
-      margin-bottom: 35px;
-      padding: 30px;
-      box-shadow: 0px 4px 12px rgba(255, 0, 0, 0.4);
+      background: #1a1a1a;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      padding: 25px;
+      box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
     }
 
     .videos h2, .featured-video h2, .contact-form h2, .form-section h2 {
-      color: #00bcd4;
-      font-size: 2rem;
-      margin-bottom: 15px;
-      border-bottom: 3px solid #ff6f61;
+      color: #00ffff;
+      border-bottom: 2px solid crimson;
       padding-bottom: 10px;
     }
 
     .videos ul {
       padding-left: 20px;
-      list-style-type: disc;
     }
 
     form input, form textarea {
       width: 100%;
-      padding: 14px;
-      margin-top: 14px;
-      border-radius: 8px;
-      border: 1px solid #444;
+      padding: 12px;
+      margin-top: 12px;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      font-size: 1rem;
       background-color: #333;
       color: #fff;
-      font-size: 1.1rem;
-      transition: 0.3s ease;
     }
 
-    form input:focus, form textarea:focus {
-      border: 1px solid #ff6f61;
+    form textarea {
+      resize: vertical;
     }
 
     form button {
-      margin-top: 20px;
-      padding: 14px 30px;
-      background-color: #ff6f61;
+      margin-top: 15px;
+      padding: 12px 25px;
+      background: crimson;
       color: white;
       border: none;
-      border-radius: 8px;
-      font-size: 1.2rem;
+      border-radius: 6px;
+      font-size: 1rem;
       cursor: pointer;
       transition: 0.3s ease;
     }
 
     form button:hover {
-      background-color: #ff3d2a;
+      background: #ff4444;
     }
 
     a {
-      color: #00bcd4;
+      color: #00ffff;
       text-decoration: none;
     }
 
     iframe {
       width: 100%;
-      height: 350px;
+      height: 315px;
       border: none;
       border-radius: 10px;
-      margin-top: 20px;
+      margin-top: 15px;
     }
 
     footer {
       text-align: center;
-      padding: 20px;
-      background-color: #222;
-      color: #aaa;
-      font-size: 1rem;
-      border-top: 3px solid #ff6f61;
+      padding: 15px;
+      background: #000;
+      color: #ccc;
+      font-size: 0.9rem;
+      border-top: 2px solid crimson;
     }
 
-    @keyframes slideIn {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(0);
-      }
-    }
-
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
       iframe {
-        height: 250px;
+        height: 200px;
       }
     }
   </style>
@@ -143,7 +129,7 @@
 <body>
 
   <div class="marquee">
-    <marquee scrollamount="6">🚀 WELCOME TO THE OFFICIAL XTREME ASHWANI WEBSITE! 🚀</marquee>
+    <marquee scrollamount="7">🚀 WELCOME TO OFFICIAL WEBSITE OF XTREME ASHWANI 🚀</marquee>
   </div>
 
   <header>
@@ -154,18 +140,19 @@
 
   <section class="featured-video">
     <h2>🎬 Featured Video</h2>
-    <p>Check out my latest video below 👇</p>
+    <p>Watch my latest content here 👇</p>
     <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Featured Video" allowfullscreen></iframe>
+    <!-- Replace with your own embed video link -->
   </section>
 
   <section class="videos">
     <h2>📺 Upcoming Videos</h2>
     <ul>
-      <li>Video Idea 1: Epic Gaming Moments</li>
-      <li>Video Idea 2: Behind the Scenes of My Setup</li>
-      <li>Video Idea 3: Q&A with Xtreme Ashwani</li>
+      <li><!-- Video Idea 1 --></li>
+      <li><!-- Video Idea 2 --></li>
+      <li><!-- Video Idea 3 --></li>
     </ul>
-    <p>Subscribe and stay tuned for more amazing content 👉 <a href="https://www.youtube.com/@XTREMEASHWANI" target="_blank">YouTube Channel</a></p>
+    <p>Subscribe for more content 👉 <a href="https://www.youtube.com/@XTREMEASHWANI" target="_blank">YouTube Channel</a></p>
   </section>
 
   <section class="contact-form">
@@ -180,7 +167,7 @@
   </section>
 
   <section class="form-section">
-    <h2>💡 Suggest a Video Idea</h2>
+    <h2>💡 Suggest a Video Topic</h2>
     <form action="#" method="post">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
