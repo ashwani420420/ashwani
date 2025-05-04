@@ -1,162 +1,141 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>XTREME ASHWANI - Audience Section</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <title>XTREME ASHWANI - Official Website</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Orbitron', sans-serif;
-      background: radial-gradient(circle at top, #0a0a0a, #1a1a1a);
-      color: #e0e0e0;
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
     }
 
     header {
-      background-color: #111;
-      color: #00ffff;
-      padding: 20px 10px 10px;
+      background-color: #222;
+      color: #ff6f61;
+      padding: 25px;
       text-align: center;
-      border-bottom: 3px solid #00ffff;
+      border-bottom: 5px solid #ff6f61;
     }
 
     header h1 {
       margin: 0;
-      font-size: 3rem;
-      letter-spacing: 2px;
+      font-size: 3.5rem;
+      letter-spacing: 3px;
+      color: #ff6f61;
+      font-weight: bold;
+      animation: slideIn 2s ease-out;
     }
 
     .marquee {
-      background: #0f0f0f;
-      padding: 10px 0;
-      color: #00ffff;
+      background-color: #1f1f1f;
+      padding: 12px 0;
+      color: #00bcd4;
       font-weight: bold;
-      font-size: 1.2rem;
-    }
-
-    .shyari-box {
-      text-align: center;
-      color: #ff4081;
-      font-size: 1.3rem;
-      margin-top: 10px;
-      animation: fadeIn 2s ease-in;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(-10px); }
-      to { opacity: 1; transform: translateY(0); }
+      font-size: 1.1rem;
     }
 
     .banner {
       width: 100%;
-      height: 300px;
-      background: url('https://images.openai.com/blob/18b9a4d3-a0ad-48fb-b2a6-43b94ef0ea79/xtreme-banner.png') no-repeat center center/cover;
-      border-bottom: 2px solid #00ffff;
-    }
-
-    nav {
-      background: #181818;
-      display: flex;
-      justify-content: center;
-      padding: 15px;
-      gap: 30px;
-    }
-
-    nav a {
-      color: #00ffff;
-      text-decoration: none;
-      font-size: 1rem;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      color: #ff4081;
+      height: 350px;
+      background: url('https://via.placeholder.com/1200x350/FF0000/FFFFFF?text=XTREME+ASHWANI') no-repeat center center/cover;
+      border-bottom: 3px solid #ff6f61;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
     }
 
     section {
-      padding: 30px 20px;
-      max-width: 900px;
-      margin: 0 auto;
+      padding: 40px 20px;
     }
 
     .videos, .featured-video, .contact-form, .form-section {
-      background: #1f1f1f;
-      border-radius: 10px;
-      margin-bottom: 30px;
-      padding: 25px;
-      box-shadow: 0 6px 20px rgba(0, 255, 255, 0.1);
+      background-color: #1c1c1c;
+      border-radius: 12px;
+      margin-bottom: 35px;
+      padding: 30px;
+      box-shadow: 0px 4px 12px rgba(255, 0, 0, 0.4);
     }
 
     .videos h2, .featured-video h2, .contact-form h2, .form-section h2 {
-      color: #00ffff;
-      border-bottom: 2px solid #00ffff;
+      color: #00bcd4;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #ff6f61;
       padding-bottom: 10px;
-      font-size: 1.5rem;
     }
 
     .videos ul {
       padding-left: 20px;
+      list-style-type: disc;
     }
 
     form input, form textarea {
       width: 100%;
-      padding: 12px;
-      margin-top: 12px;
-      border-radius: 5px;
+      padding: 14px;
+      margin-top: 14px;
+      border-radius: 8px;
       border: 1px solid #444;
-      outline: none;
-      font-size: 1rem;
-      background-color: #0e0e0e;
-      color: #f0f0f0;
+      background-color: #333;
+      color: #fff;
+      font-size: 1.1rem;
+      transition: 0.3s ease;
     }
 
-    form textarea {
-      resize: vertical;
+    form input:focus, form textarea:focus {
+      border: 1px solid #ff6f61;
     }
 
     form button {
-      margin-top: 15px;
-      padding: 12px 25px;
-      background: #00ffff;
-      color: #000;
+      margin-top: 20px;
+      padding: 14px 30px;
+      background-color: #ff6f61;
+      color: white;
       border: none;
-      border-radius: 6px;
-      font-size: 1rem;
+      border-radius: 8px;
+      font-size: 1.2rem;
       cursor: pointer;
       transition: 0.3s ease;
     }
 
     form button:hover {
-      background: #ff4081;
-      color: white;
+      background-color: #ff3d2a;
     }
 
     a {
-      color: #00ffff;
+      color: #00bcd4;
       text-decoration: none;
     }
 
     iframe {
       width: 100%;
-      height: 315px;
+      height: 350px;
       border: none;
       border-radius: 10px;
-      margin-top: 15px;
+      margin-top: 20px;
     }
 
     footer {
       text-align: center;
-      padding: 15px;
-      background: #111;
+      padding: 20px;
+      background-color: #222;
       color: #aaa;
-      font-size: 0.9rem;
-      border-top: 2px solid #00ffff;
+      font-size: 1rem;
+      border-top: 3px solid #ff6f61;
     }
 
-    @media (max-width: 600px) {
+    @keyframes slideIn {
+      0% {
+        transform: translateX(-100%);
+      }
+      100% {
+        transform: translateX(0);
+      }
+    }
+
+    @media (max-width: 768px) {
       iframe {
-        height: 200px;
+        height: 250px;
       }
     }
   </style>
@@ -164,39 +143,29 @@
 <body>
 
   <div class="marquee">
-    <marquee scrollamount="7">🚀 WELCOME TO OFFICIAL WEBSITE OF XTREME ASHWANI 🚀</marquee>
+    <marquee scrollamount="6">🚀 WELCOME TO THE OFFICIAL XTREME ASHWANI WEBSITE! 🚀</marquee>
   </div>
 
   <header>
     <h1>XTREME ASHWANI</h1>
   </header>
 
-  <div class="shyari-box">
-    "सपनों को सच करने के लिए पहले सपना देखना ज़रूरी है। स्वागत है आप सभी का!"
-  </div>
-
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Videos</a>
-    <a href="#">Contact</a>
-  </nav>
-
   <div class="banner"></div>
 
   <section class="featured-video">
     <h2>🎬 Featured Video</h2>
-    <p>Watch my latest content here 👇</p>
-    <iframe src="http://www.youtube.com/@XTREMEASHWANI" title="Featured Video" allowfullscreen></iframe>
+    <p>Check out my latest video below 👇</p>
+    <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Featured Video" allowfullscreen></iframe>
   </section>
 
   <section class="videos">
     <h2>📺 Upcoming Videos</h2>
     <ul>
-      <li><!-- Video Idea 1 --></li>
-      <li><!-- Video Idea 2 --></li>
-      <li><!-- Video Idea 3 --></li>
+      <li>Video Idea 1: Epic Gaming Moments</li>
+      <li>Video Idea 2: Behind the Scenes of My Setup</li>
+      <li>Video Idea 3: Q&A with Xtreme Ashwani</li>
     </ul>
-    <p>Subscribe 👉 <a href="https://www.youtube.com/@XTREMEASHWANI" target="_blank">YouTube Channel</a></p>
+    <p>Subscribe and stay tuned for more amazing content 👉 <a href="https://www.youtube.com/@XTREMEASHWANI" target="_blank">YouTube Channel</a></p>
   </section>
 
   <section class="contact-form">
@@ -211,7 +180,7 @@
   </section>
 
   <section class="form-section">
-    <h2>💡 Suggest a Video Topic</h2>
+    <h2>💡 Suggest a Video Idea</h2>
     <form action="#" method="post">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
@@ -226,4 +195,3 @@
 
 </body>
 </html>
-
