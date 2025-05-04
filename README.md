@@ -8,30 +8,30 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #111;
-      color: #f0f0f0;
+      background-color: #f9f9f9;
+      color: #333;
     }
 
     header {
-      background-color: #000;
-      color: #fff;
+      background-color: #ffffff;
+      color: #222;
       padding: 20px 10px 10px;
       text-align: center;
-      border-bottom: 3px solid crimson;
+      border-bottom: 3px solid #0066cc;
     }
 
     header h1 {
       margin: 0;
       font-size: 3rem;
       letter-spacing: 2px;
-      color: crimson;
+      color: #0066cc;
       line-height: 1.2;
     }
 
     .marquee {
-      background: #222;
+      background: #e6f2ff;
       padding: 10px 0;
-      color: #00ffff;
+      color: #003366;
       font-weight: bold;
       font-size: 1.2rem;
     }
@@ -39,25 +39,27 @@
     .banner {
       width: 100%;
       height: 300px;
-      background: url('https://via.placeholder.com/1200x300/FF0000/FFFFFF?text=XTREME+ASHWANI') no-repeat center center/cover;
-      border-bottom: 2px solid crimson;
+      background: url('https://images.openai.com/blob/18b9a4d3-a0ad-48fb-b2a6-43b94ef0ea79/xtreme-banner.png') no-repeat center center/cover;
+      border-bottom: 2px solid #0066cc;
     }
 
     section {
       padding: 30px 20px;
+      max-width: 900px;
+      margin: 0 auto;
     }
 
     .videos, .featured-video, .contact-form, .form-section {
-      background: #1a1a1a;
+      background: #ffffff;
       border-radius: 10px;
       margin-bottom: 30px;
       padding: 25px;
-      box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
 
     .videos h2, .featured-video h2, .contact-form h2, .form-section h2 {
-      color: #00ffff;
-      border-bottom: 2px solid crimson;
+      color: #0066cc;
+      border-bottom: 2px solid #0066cc;
       padding-bottom: 10px;
     }
 
@@ -70,11 +72,11 @@
       padding: 12px;
       margin-top: 12px;
       border-radius: 5px;
-      border: none;
+      border: 1px solid #ccc;
       outline: none;
       font-size: 1rem;
-      background-color: #333;
-      color: #fff;
+      background-color: #fff;
+      color: #333;
     }
 
     form textarea {
@@ -84,7 +86,7 @@
     form button {
       margin-top: 15px;
       padding: 12px 25px;
-      background: crimson;
+      background: #0066cc;
       color: white;
       border: none;
       border-radius: 6px;
@@ -94,11 +96,11 @@
     }
 
     form button:hover {
-      background: #ff4444;
+      background: #004999;
     }
 
     a {
-      color: #00ffff;
+      color: #0066cc;
       text-decoration: none;
     }
 
@@ -113,10 +115,10 @@
     footer {
       text-align: center;
       padding: 15px;
-      background: #000;
-      color: #ccc;
+      background: #f1f1f1;
+      color: #555;
       font-size: 0.9rem;
-      border-top: 2px solid crimson;
+      border-top: 2px solid #ccc;
     }
 
     @media (max-width: 600px) {
@@ -142,7 +144,6 @@
     <h2>🎬 Featured Video</h2>
     <p>Watch my latest content here 👇</p>
     <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Featured Video" allowfullscreen></iframe>
-    <!-- Replace with your own embed video link -->
   </section>
 
   <section class="videos">
@@ -152,7 +153,7 @@
       <li><!-- Video Idea 2 --></li>
       <li><!-- Video Idea 3 --></li>
     </ul>
-    <p>Subscribe for more content 👉 <a href="https://www.youtube.com/@XTREMEASHWANI" target="_blank">YouTube Channel</a></p>
+    <p>Subscribe 👉 <a href="https://www.youtube.com/@XTREMEASHWANI" target="_blank">YouTube Channel</a></p>
   </section>
 
   <section class="contact-form">
@@ -182,4 +183,3 @@
 
 </body>
 </html>
-
