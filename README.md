@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -204,7 +204,7 @@
 
   <section class="form-section">
     <h2>💡 Suggest a Video Topic</h2>
-    <form action="#" method="post">
+    <form action="thankyou.html" method="get">
       <input type="text" name="name" placeholder="Your Name" required>
       <input type="email" name="email" placeholder="Your Email" required>
       <textarea name="suggestion" rows="5" placeholder="Your Video Suggestion..." required></textarea>
